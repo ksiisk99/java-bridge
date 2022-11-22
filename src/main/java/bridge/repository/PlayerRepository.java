@@ -31,7 +31,7 @@ public class PlayerRepository {
     }
 
     public void update(Long playerId, Player player) {
-        repository.put(playerId, player);
+        repgository.put(playerId, player);
     }
 
     private void incrementId() {
